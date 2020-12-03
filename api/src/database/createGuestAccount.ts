@@ -18,7 +18,7 @@ const seedUsers = (): Promise<User[]> => {
     createEntity(User, {
       email: 'nicolet@jira.guest',
       name: 'Nicole Traboulsi',
-      avatarUrl: 'https://ibb.co/BndtcrF',
+      avatarUrl: 'https://i.ibb.co/hYhyLZw/C8-E6-E735-C190-416-A-9869-FDA2-C3-A63-B9-B-4-5005-c.jpg',
     }),
     createEntity(User, {
       email: 'tests@jira.guest',
