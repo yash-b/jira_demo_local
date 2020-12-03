@@ -41,7 +41,7 @@ There are many showcase/example React projects out there but most of them are wa
 
 ### Unit/Integration tests 🧪
 
-Both Client and API are currently tested through [end-to-end Cypress tests](https://github.com/oldboyxx/jira_clone/tree/master/client/cypress/integration). That's good enough for a relatively simple application such as this, even if it was a real product. However, as the app grows in complexity, it might be wise to start writing additional unit/integration tests.
+Both Client and API are currently tested through [end-to-end Cypress tests](https://github.com/yash-b/jira_demo_local/tree/master/client/cypress/integration). That's good enough for a relatively simple application such as this, even if it was a real product. However, as the app grows in complexity, it might be wise to start writing additional unit/integration tests.
 
 ## Author: Ivor Reic ✍️
 
@@ -51,7 +51,7 @@ Both Client and API are currently tested through [end-to-end Cypress tests](http
 ## Contributing
 
 - [Yash Bhambhani](https://yash-b.github.io)
-- [Nicole Traboulsi](https://yash-b.github.io)
+- [Nicole Traboulsi](https://github.com/nmtraboulsi)
 
 ## License
 

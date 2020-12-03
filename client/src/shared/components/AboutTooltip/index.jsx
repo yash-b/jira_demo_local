@@ -31,7 +31,7 @@ const AboutTooltip = tooltipProps => (
         <FeedbackParagraph>
           {'\nCurrent changes contributed by '}
           <a href="https://github.com/yash-b">Yash</a> and 
-          <a href="https://github.com/yash-b"> Nicole</a>
+          <a href="https://github.com/nmtraboulsi"> Nicole</a>
         </FeedbackParagraph>
 
         <a href="https://github.com/yash-b/jira_local" target="_blank" rel="noreferrer noopener">
