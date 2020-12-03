@@ -13,12 +13,12 @@ const seedUsers = (): Promise<User[]> => {
     createEntity(User, {
       email: 'yashb@jira.guest',
       name: 'Yash Bhambhani',
-      avatarUrl: 'https://ibb.co/XLNHWCm',
+      avatarUrl: 'https://i.ibb.co/9gzPprR/yash-portrait.png',
     }),
     createEntity(User, {
       email: 'nicolet@jira.guest',
       name: 'Nicole Traboulsi',
-      avatarUrl: 'https://i.ibb.co/6n0hLML/baby-yoda.jpg',
+      avatarUrl: 'https://i.ibb.co/hYhyLZw/C8-E6-E735-C190-416-A-9869-FDA2-C3-A63-B9-B-4-5005-c.jpg',
     }),
   ];
   return Promise.all(users);

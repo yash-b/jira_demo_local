@@ -28,7 +28,7 @@ describe('Issue filters', () => {
   });
 
   const getSearchInput = () => cy.get(testid`board-filters`).find('input');
-  const getUserAvatar = () => cy.get(testid`board-filters`).find(testid`avatar:Gaben`);
+  const getUserAvatar = () => cy.get(testid`board-filters`).find(testid`avatar:Yash Bhambhani`);
   const getMyOnlyButton = () => cy.get(testid`board-filters`).contains('Only My Issues');
   const getRecentButton = () => cy.get(testid`board-filters`).contains('Recently Updated');
   const assertIssuesCount = count => cy.get(testid`list-issue`).should('have.length', count);

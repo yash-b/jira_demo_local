@@ -12,8 +12,8 @@ describe('Issue details', () => {
     getIssueDetailsModal().within(() => {
       cy.selectOption('type', 'Story');
       cy.selectOption('status', 'Done');
-      cy.selectOption('assignees', 'Gaben', 'Yoda');
-      cy.selectOption('reporter', 'Yoda');
+      cy.selectOption('assignees', 'Yash Bhambhani', 'Nicole Traboulsi');
+      cy.selectOption('reporter', 'Nicole Traboulsi');
       cy.selectOption('priority', 'Medium');
     });
 
@@ -21,14 +21,14 @@ describe('Issue details', () => {
       getIssueDetailsModal().within(() => {
         cy.selectShouldContain('type', 'Story');
         cy.selectShouldContain('status', 'Done');
-        cy.selectShouldContain('assignees', 'Gaben', 'Yoda');
-        cy.selectShouldContain('reporter', 'Yoda');
+        cy.selectShouldContain('assignees', 'Yash Bhambhani', 'Nicole Traboulsi');
+        cy.selectShouldContain('reporter', 'Nicole Traboulsi');
         cy.selectShouldContain('priority', 'Medium');
       });
 
       getListIssue()
-        .should('have.descendants', testid`avatar:Gaben`)
-        .and('have.descendants', testid`avatar:Yoda`)
+        .should('have.descendants', testid`avatar:Yash Bhambhani`)
+        .and('have.descendants', testid`avatar:Nicole Traboulsi`)
         .and('have.descendants', testid`icon:story`);
     });
   });
