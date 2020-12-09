@@ -1,3 +1,8 @@
+// CPSC 542 - Software Validation and Verification
+// Prof. David Heckathorn
+// Yash Bhambhani, Nicole Traboulsi
+// Dec 02, 2020
+
 import { testid } from '../support/utils';
 
 describe('Authentication', () => {
